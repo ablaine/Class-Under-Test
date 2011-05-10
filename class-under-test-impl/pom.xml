@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>class-under-test-parent</artifactId>
+		<groupId>com.ablaine</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<groupId>com.ablaine</groupId>
+	<artifactId>class-under-test</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>class-under-test-impl</name>
+	<description>An annotation which links a test class to the class it is testing. During compilation, a warning will be produced if the two come out of sync.</description>
+	<url>andrewblaine.com</url>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<compilerArgument>-proc:none</compilerArgument>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
