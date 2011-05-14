@@ -6,11 +6,11 @@
 	<parent>
 		<artifactId>class-under-test-parent</artifactId>
 		<groupId>com.ablaine</groupId>
-		<version>1.0-SNAPSHOT</version>
+		<version>0.1.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.ablaine</groupId>
 	<artifactId>class-under-test</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<name>class-under-test-impl</name>
 	<description>An annotation which links a test class to the class it is testing. During compilation, a warning will be produced if the two come out of sync.</description>
 	<url>andrewblaine.com</url>
@@ -32,8 +32,6 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.8.2</version>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>

@@ -5,7 +5,7 @@
 
 	<groupId>com.ablaine</groupId>
 	<artifactId>class-under-test-parent</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>class-under-test-parent</name>
@@ -18,7 +18,6 @@
 		<java.version>1.6</java.version>
 		<maven-compiler-plugin.source>${java.version}</maven-compiler-plugin.source>
 		<maven-compiler-plugin.target>${java.version}</maven-compiler-plugin.target>
-		<class-under-test.version>1.0-SNAPSHOT</class-under-test.version>
 	</properties>
 
 	<modules>
@@ -39,4 +38,21 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.8.2</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.ablaine</groupId>
+				<artifactId>class-under-test</artifactId>
+				<version>0.1.0-SNAPSHOT</version>
+				<scope>test</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>
