@@ -7,9 +7,7 @@ import java.lang.annotation.Annotation;
 import org.junit.Test;
 
 import com.ablaine.classundertest.annotation.ClassUnderTest;
-import com.ablaine.classundertest.internal.TestClassName;
 
-@ClassUnderTest(TestClassName.class)
 public class TestClassNameTest {
 	@Test(expected = NullPointerException.class)
 	public void testConstructor_null() {
