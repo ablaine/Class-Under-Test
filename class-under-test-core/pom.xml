@@ -9,9 +9,9 @@
 		<version>0.1.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.ablaine</groupId>
-	<artifactId>class-under-test</artifactId>
+	<artifactId>class-under-test-core</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
-	<name>class-under-test-impl</name>
+	<name>class-under-test-core</name>
 	<description>An annotation which links a test class to the class it is testing. During compilation, a warning will be produced if the two come out of sync.</description>
 	<url>andrewblaine.com</url>
 

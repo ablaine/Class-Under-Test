@@ -18,7 +18,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.ablaine</groupId>
-			<artifactId>class-under-test</artifactId>
+			<artifactId>class-under-test-core</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>

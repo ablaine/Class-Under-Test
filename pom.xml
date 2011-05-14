@@ -21,7 +21,7 @@
 	</properties>
 
 	<modules>
-		<module>class-under-test-impl</module>
+		<module>class-under-test-core</module>
 		<module>class-under-test-test</module>
 	</modules>
 
@@ -49,7 +49,7 @@
 			</dependency>
 			<dependency>
 				<groupId>com.ablaine</groupId>
-				<artifactId>class-under-test</artifactId>
+				<artifactId>class-under-test-core</artifactId>
 				<version>0.1.0-SNAPSHOT</version>
 				<scope>test</scope>
 			</dependency>
