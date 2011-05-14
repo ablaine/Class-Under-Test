@@ -1,4 +1,4 @@
-package com.ablaine.classundertest;
+package com.ablaine.classundertest.internal;
 
 import static org.junit.Assert.*;
 
@@ -7,6 +7,7 @@ import java.lang.annotation.Annotation;
 import org.junit.Test;
 
 import com.ablaine.classundertest.annotation.ClassUnderTest;
+import com.ablaine.classundertest.internal.TestClassName;
 
 @ClassUnderTest(TestClassName.class)
 public class TestClassNameTest {

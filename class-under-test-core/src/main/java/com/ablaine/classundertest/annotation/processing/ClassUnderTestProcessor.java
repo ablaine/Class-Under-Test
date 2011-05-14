@@ -14,9 +14,9 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic.Kind;
 
-import com.ablaine.classundertest.TestClassName;
 import com.ablaine.classundertest.annotation.ClassUnderTest;
-import com.ablaine.classundertest.ast.ElementsUtil;
+import com.ablaine.classundertest.internal.ast.ElementsUtil;
+import com.ablaine.classundertest.internal.TestClassName;
 
 @SupportedAnnotationTypes("com.ablaine.classundertest.annotation.ClassUnderTest")
 @SupportedSourceVersion(SourceVersion.RELEASE_6)

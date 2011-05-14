@@ -1,4 +1,4 @@
-package com.ablaine.classundertest.ast;
+package com.ablaine.classundertest.internal.ast;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

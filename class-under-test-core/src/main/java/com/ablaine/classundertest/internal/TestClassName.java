@@ -1,4 +1,4 @@
-package com.ablaine.classundertest;
+package com.ablaine.classundertest.internal;
 
 import com.ablaine.classundertest.annotation.ClassUnderTest;
 
