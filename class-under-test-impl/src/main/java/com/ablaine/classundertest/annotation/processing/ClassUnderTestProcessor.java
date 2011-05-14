@@ -1,4 +1,4 @@
-package com.ablaine.classundertest;
+package com.ablaine.classundertest.annotation.processing;
 
 import java.util.Set;
 
@@ -14,12 +14,13 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic.Kind;
 
-import com.ablaine.classundertest.annotations.ClassUnderTest;
+import com.ablaine.classundertest.TestClassName;
+import com.ablaine.classundertest.annotation.ClassUnderTest;
 import com.ablaine.classundertest.ast.ElementsUtil;
 
-@SupportedAnnotationTypes("com.ablaine.classundertest.annotations.ClassUnderTest")
+@SupportedAnnotationTypes("com.ablaine.classundertest.annotation.ClassUnderTest")
 @SupportedSourceVersion(SourceVersion.RELEASE_6)
-public class AnnotationProcessor extends AbstractProcessor {
+public class ClassUnderTestProcessor extends AbstractProcessor {
 	private Messager messager;
 	private ElementsUtil elementsUtil;
 

@@ -1,4 +1,4 @@
-package com.ablaine.classundertest.annotations;
+package com.ablaine.classundertest.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

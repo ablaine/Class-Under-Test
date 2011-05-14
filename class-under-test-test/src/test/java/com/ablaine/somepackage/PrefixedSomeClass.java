@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.ablaine.classundertest.annotations.ClassUnderTest;
+import com.ablaine.classundertest.annotation.ClassUnderTest;
 
 @ClassUnderTest(value = SomeClass.class, prefix = "Prefixed", suffix = "")
 public class PrefixedSomeClass {

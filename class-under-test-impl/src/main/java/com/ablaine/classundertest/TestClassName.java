@@ -1,6 +1,6 @@
 package com.ablaine.classundertest;
 
-import com.ablaine.classundertest.annotations.ClassUnderTest;
+import com.ablaine.classundertest.annotation.ClassUnderTest;
 
 public class TestClassName {
 	// [package].[prefix][Class][suffix].java

@@ -6,7 +6,7 @@ import java.lang.annotation.Annotation;
 
 import org.junit.Test;
 
-import com.ablaine.classundertest.annotations.ClassUnderTest;
+import com.ablaine.classundertest.annotation.ClassUnderTest;
 
 @ClassUnderTest(TestClassName.class)
 public class TestClassNameTest {

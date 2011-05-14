@@ -1,1 +1,1 @@
-com.ablaine.classundertest.AnnotationProcessor
+com.ablaine.classundertest.annotation.processing.ClassUnderTestProcessor
